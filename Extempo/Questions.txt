@@ -1,0 +1,32 @@
+1) Explain how to use pointers in C and its advantage?
+A pointer is a programming language object, whose value refers to (or "points to") another value stored elsewhere in the computer's memory using its address
+so when we use it, we compact the code and make it effiecient, I mean we know where is exactly that variable, but the advantange is to avoid using it a lot.
+
+2) What is the difference between pass by value by reference and pass by reference in c?
+If it is a value, the variable information is stored in a different memory address when it is received in the function, if the value of 
+modifies this variable, it does not affect the original variable, it is only modified as part of the function.
+If it is a reference, the variable received as a parameter in the function points in exactly the same storage direction as the original variable. 
+Thus, if its value is changed within the function, the original variable is also changed-
+
+3) Is that possible to add pointers to each other?
+Yes, but it can be complicated you need to have a lot of knowledge
+
+4) What size is the void pointer in C?
+Betwen 4 and 8 bytes, depend of the system
+
+5) Differentiate between a constant pointer and pointer to a constant?
+Constant point: Can not change where they are refering.
+Pointers to constant: Can not change the value that they have
+
+6) How do you use the FILE pointer?
+It contains many information about the file including the name, status, and current position of the file. 
+It identifies a specific file and uses the associated sequence to direct the operation of the functions
+
+7) Explain the use of indirection or dereference operator "*" and address operator "&".
+* = Shows de value of the var. it allows the access of what is point by a pointer.
+& = Shows the direction of the var.
+
+8) Explain the difference (if exists) between pointer and array in C?
+The array identifier behaves as a constant pointer, that is, we cannot make it point to another memory address 
+and also the compiler automatically associates a memory area for the array elements,which it does not do for the elements pointed by a 
+common pointer.
